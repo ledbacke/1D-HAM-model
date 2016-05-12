@@ -1,0 +1,34 @@
+GEOMETRY
+----------------------------------------------------
+0.12   0.12   
+1
+0.01 
+
+MESH
+----------------------------------------------------
+
+INITIAL  CONDITIONS
+----------------------------------------------------
+TEMPERATURE [°C] & RELATIVE HUMIDITY [%]
+InitialConditions[i]: 23
+InitialConditions[i]: 60
+
+Temp_Start_Mat[l]: 23
+RH_Start_Mat[l]: 60
+NumberCellsLayer[l]: 10
+
+HYGRO-THERMAL
+----------------------------------------------------
+-0.043387   0.050052   -4.8e-05   3.59e-12
+-1
+
+CLIMATE
+----------------------------------------------------
+Tleft: 23   Tright: 23
+RHleft: 93    RHright: 93
+Pleft: 101325   Pright: 101325
+Alpha_Left: 8   Alpha_Right: 8
+Beta_Left: 0   Beta_Right: 0
+ITERATION PROCEDURE
+----------------------------------------------------
+StartTime: 0   StopTime: 900
